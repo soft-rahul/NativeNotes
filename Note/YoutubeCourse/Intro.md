@@ -17,3 +17,15 @@ npx create-expo-app@lates projectName
 
 ## Folder Structure (Expo)
 ![Alt text](image-3.png)
+
+## Core Components 
+![Alt text](image-4.png)
+
+![Alt text](image-5.png)
+
+
+### View
+![Alt text](image-6.png)
+
+### Text
+![Alt text](image-7.png)
