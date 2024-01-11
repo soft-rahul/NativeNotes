@@ -29,3 +29,11 @@ npx create-expo-app@lates projectName
 
 ### Text
 ![Alt text](image-7.png)
+
+### Image & Background Image
+![Alt text](image-8.png)
+
+![Alt text](image-9.png)
+
+### Scroll View 
+![Alt text](image-10.png)
