@@ -1,23 +1,20 @@
-import { View, Text, Image } from "react-native";
-import ImgIcon from "./assets/adaptive-icon.png";
+import { useState } from "react";
+import { View, Text, Button } from "react-native";
 
 const App = () => {
-  const number = 100;
+  const [count, setCount] = useState(0);
+  const handlePress = () => {
+    setCount((prev) => prev + 1);
+  };
   return (
-    <View style={{ height: 1000, backgroundColor: "#fff" }}>
-      <View style={{ height: 100, backgroundColor: "orange" }}></View>
-      <View style={{ height: 100, backgroundColor: "white" }}></View>
-      <View style={{ height: 100, backgroundColor: "green" }}></View>
-      <Text> {number}</Text>
-      <View>
-        <Image source={ImgIcon} style={{ height: 200, width: 200 }} />
-        <Image
-          source={{
-            uri: 'https://picsum.photos/200',
-          }}
-          style={{ height: 300, width: 300 }}
-        />
-      </View>
+    <View style={{ height: 1000, backgroundColor: "#000" }}>
+      <Text> Count is : {count}</Text>
+      <Button
+        title="Update Value"
+        onPress={handlePress}
+        color="red"
+        disabled={count === 10}
+      />
     </View>
   );
 };

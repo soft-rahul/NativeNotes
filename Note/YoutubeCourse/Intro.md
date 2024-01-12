@@ -37,3 +37,11 @@ npx create-expo-app@lates projectName
 
 ### Scroll View 
 ![Alt text](image-10.png)
+
+### Button 
+![Alt text](image-11.png)
+
+### Press able
+![Alt text](image-13.png)
+
+![Alt text](image-14.png)
